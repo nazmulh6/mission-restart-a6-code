@@ -8,3 +8,8 @@
     background-repeat: no-repeat;
     height: 100vh;
 }
+.features-btn{
+    position: relative;
+    margin-top: -20px;
+    margin-left: 10px;
+}
