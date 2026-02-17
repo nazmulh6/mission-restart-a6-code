@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,118 +9,139 @@
     <link rel="shortcut icon" href="Assets/banner-image.png" type="image/x-icon">
 
     <!-- font awesome  -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-     <!-- tailwind and daisyUi  -->
-      <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
-<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- tailwind and daisyUi  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
-<!-- google fonts -->
- <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 
-<!-- stylesheet  -->
- <link rel="stylesheet" href="styles/style.css">
+    <!-- stylesheet  -->
+    <link rel="stylesheet" href="styles/style.css">
 
 </head>
+
 <body>
-<header>
+    <header>
         <!-- navbar section  -->
-<div class="navbar bg-base-100 shadow-sm mx-auto">
-  <div class="navbar-start">
-    
-    <a class="btn btn-ghost text-blue-600 text-xl">SwiftCart</a>
-  </div>
-  <div class="navbar-center hidden lg:flex">
-    <ul class="menu menu-horizontal px-1">
-      <li><a>Home</a></li>
-      <li><a>Products</a></li>
-      <li><a>About</a></li>
-      <li><a>Contact</a></li>
-    </ul>
-  </div>
-  <div class="navbar-end">
-    <a class=""><i class="fa-solid fa-cart-shopping"></i></a>
+        <div class="navbar bg-base-100 shadow-sm mx-auto">
+            <div class="navbar-start">
 
-    <div class="dropdown">
-      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
-      </div>
-      <ul
-        tabindex="-1"
-        class="menu  dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Home</a></li>
-        <li><a>Products</a></li>
-        <li><a>About</a></li>
-        <li><a>Contact</a></li>
-      </ul>
-    </div>
-
-  </div>
-</div>
-</header>
-<section class="banner">
-    <div class=" px-30 py-40 w-2/3 md:w-2/3">
-        <h2 class="text-white mb-5 text-5xl font-bold text-">Best Collection For You</h2>
-        <p class="text-gray-700 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto expedita porro nulla voluptate quasi. Totam doloremque consequuntur voluptatem saepe dolor officia in repellat, assumenda dignissimos dolorem dolore quia fugit.</p>
-        <button class="btn btn-primary">Shop Now</button>
-    </div>
-</section>
-<section class="features">
-            <div class="feature-title text-center my-10 ">
-                <h2 class=" mb-5 text-5xl font-bold text-">Why Choose Us</h2>
-                <p class="text-gray-400">We provide the best shopping experience with top notch services</p>
+                <a class="btn btn-ghost text-blue-600 text-xl">SwiftCart</a>
             </div>
+            <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1">
+                    <li><a>Home</a></li>
+                    <li><a>Products</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end">
+                <a class=""><i class="fa-solid fa-cart-shopping"></i></a>
 
-            <div class="feature-cards flex gap-10 items-center px-30 mx-auto">
-
-<div class="card w-96 bg-base-100 card-md shadow-sm">
-    <div class="justify-start card-actions">
-      <button class="btn features-btn bg-blue-100"><i class="fa-regular fa-truck"></i></button>
-    </div>
-  <div class="card-body">
-    <h2 class="card-title">Fast Delivery</h2>
-    <p class="text-gray-400">Get your orders delevered to your doorstep quickly and efficiently.</p>
-    
-  </div>
-</div>
-<div class="card w-96 bg-base-100 card-md shadow-sm">
-    <div class="justify-start card-actions">
-      <button class="btn features-btn bg-blue-100"><i class="fa-regular fa-headphones"></i></button>
-    </div>
-  <div class="card-body">
-    <h2 class="card-title">24/7 Support</h2>
-    <p class="text-gray-400">Our support team is available around the clock to assist you. <br> Thank you</p>
-    
-  </div>
-</div>
-<div class="card w-96 bg-base-100 card-md shadow-sm">
-    <div class="justify-start card-actions">
-      <button class="btn features-btn bg-blue-100"><i class="fa-regular fa-circle-check"></i></button>
-    </div>
-  <div class="card-body">
-    <h2 class="card-title">Secure Payment</h2>
-    <p class="text-gray-400">Experience safe and secure transactions with our encrypted payment system.</p>
-    
-  </div>
-</div>
-<div class="card w-96 bg-base-100 card-md shadow-sm">
-    <div class="justify-start card-actions">
-      <button class="btn features-btn bg-blue-100"><i class="fa-solid fa-recycle"></i></button>
-    </div>
-  <div class="card-body">
-    <h2 class="card-title">Easy Returns</h2>
-    <p class="text-gray-400">Not satisfied? Return your products easily within 30 days. <br> Thank you.</p>
-    
-  </div>
-</div>
+                <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                        </svg>
+                    </div>
+                    <ul tabindex="-1" class="menu  dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                        <li><a>Home</a></li>
+                        <li><a>Products</a></li>
+                        <li><a>About</a></li>
+                        <li><a>Contact</a></li>
+                    </ul>
+                </div>
 
             </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class=" px-30 py-40 w-2/3 md:w-2/3">
+            <h2 class="text-white mb-5 text-5xl font-bold text-">Best Collection For You</h2>
+            <p class="text-gray-700 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure architecto
+                expedita porro nulla voluptate quasi. Totam doloremque consequuntur voluptatem saepe dolor officia in
+                repellat, assumenda dignissimos dolorem dolore quia fugit.</p>
+            <button class="btn btn-primary">Shop Now</button>
+        </div>
+    </section>
+    <section class="features">
+        <div class="feature-title text-center my-10 ">
+            <h2 class=" mb-5 text-5xl font-bold text-">Why Choose Us</h2>
+            <p class="text-gray-400">We provide the best shopping experience with top notch services</p>
+        </div>
 
-</section>
-<section class="trending px-30 mx-auto">
-    <h2 class=" my-10 text-5xl font-bold text-">Trending Now</h2>
-</section>
+        <div class="feature-cards flex gap-10 items-center px-30 mx-auto">
+
+            <div class="card w-96 bg-base-100 card-md shadow-sm">
+                <div class="justify-start card-actions">
+                    <button class="btn features-btn bg-blue-100"><i class="fa-regular fa-truck"></i></button>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Fast Delivery</h2>
+                    <p class="text-gray-400">Get your orders delevered to your doorstep quickly and efficiently.</p>
+
+                </div>
+            </div>
+            <div class="card w-96 bg-base-100 card-md shadow-sm">
+                <div class="justify-start card-actions">
+                    <button class="btn features-btn bg-blue-100"><i class="fa-regular fa-headphones"></i></button>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">24/7 Support</h2>
+                    <p class="text-gray-400">Our support team is available around the clock to assist you. <br> Thank
+                        you</p>
+
+                </div>
+            </div>
+            <div class="card w-96 bg-base-100 card-md shadow-sm">
+                <div class="justify-start card-actions">
+                    <button class="btn features-btn bg-blue-100"><i class="fa-regular fa-circle-check"></i></button>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Secure Payment</h2>
+                    <p class="text-gray-400">Experience safe and secure transactions with our encrypted payment system.
+                    </p>
+
+                </div>
+            </div>
+            <div class="card w-96 bg-base-100 card-md shadow-sm">
+                <div class="justify-start card-actions">
+                    <button class="btn features-btn bg-blue-100"><i class="fa-solid fa-recycle"></i></button>
+                </div>
+                <div class="card-body">
+                    <h2 class="card-title">Easy Returns</h2>
+                    <p class="text-gray-400">Not satisfied? Return your products easily within 30 days. <br> Thank you.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trending px-30 mx-auto">
+        <h2 class=" my-10 text-5xl font-bold text-">Trending Now</h2>
+
+        <div id="top-rated" class="top-trending flex gap-5 justify-center items-center">
+
+        </div>
+
+    </section>
+
+
+
+
+    <script src="./script/index.js"></script>
 </body>
+
 </html>
